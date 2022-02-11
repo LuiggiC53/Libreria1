@@ -54,4 +54,17 @@ public class OrdenLibros {
 		
 	}
 	
+	public ArrayList<Libros> getPrecio() {
+		for(int i=0; i<3; i++) {
+			System.out.print(Precios.get(i) + " ");
+		}
+		return null;
+	}
 	
+	public String getTlibros() {
+		for(int i=0; i<libros.size(); i++){
+			System.out.println(libros.get(i));
+		}
+		return null;	
+	}
+}
